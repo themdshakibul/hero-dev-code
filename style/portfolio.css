@@ -30,7 +30,8 @@
 
 .section-heading {
   max-width: 827px;
-  align-items: center;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .section-heading h2 {
@@ -144,4 +145,45 @@ nav .menu a {
   font-size: 20px;
   font-weight: bold;
   color: #474747;
+}
+
+#skills {
+  padding-top: 130px;
+}
+
+#skills .skills-continer {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+#skills .skills-continer .skills-box {
+  display: flex;
+  gap: 20px;
+}
+
+.skills-box .skilla-card {
+  padding: 30px;
+  max-width: 267px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgba(255, 255, 255, 1);
+}
+
+.skilla-card img {
+  width: 44px;
+  margin-bottom: 30px;
+}
+
+.skilla-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 30px;
+}
+
+.skilla-card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  margin-bottom: 20px;
 }
