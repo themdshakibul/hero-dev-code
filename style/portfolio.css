@@ -47,6 +47,12 @@
   color: #757575;
   margin-bottom: 30px;
 }
+#about,
+#skills,
+#resume {
+  margin-top: 130px;
+}
+
 /* main style */
 header {
   background-color: #fff8f3;
@@ -116,10 +122,6 @@ nav .menu a {
   vertical-align: middle;
 }
 
-#about {
-  margin-top: 130px;
-}
-
 #about .about-continer {
   width: 71%;
   max-width: 1140px;
@@ -147,10 +149,6 @@ nav .menu a {
   color: #474747;
 }
 
-#skills {
-  padding-top: 130px;
-}
-
 #skills .skills-continer {
   width: 71%;
   max-width: 1140px;
@@ -158,7 +156,7 @@ nav .menu a {
 }
 #skills .skills-continer .skills-box {
   display: flex;
-  gap: 20px;
+  gap: 24px;
 }
 
 .skills-box .skilla-card {
@@ -185,5 +183,51 @@ nav .menu a {
   font-size: 16px;
   font-weight: 400;
   color: #757575;
+  line-height: 28px;
+}
+
+#resume .resumi-continer {
+  max-width: 71%;
+  width: 1140px;
+  margin: 113px auto 0;
+  display: flex;
+  gap: 24px;
+}
+
+.education hr {
+  margin: 30px 0;
+  color: #d1d1d1;
+}
+.resumi-continer .section-tytle {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+.resumi-card {
+  max-width: 511px;
+  margin-right: 47px;
+}
+
+.resumi-card .card-tytle {
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+.resumi-card .card-info {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
   margin-bottom: 20px;
+}
+
+.resumi-card .card-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 28px;
+  margin-bottom: 30px;
 }
